@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7975753433643712945
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4157525999578052277}
+  - component: {fileID: 8032913310635573839}
+  m_Layer: 0
+  m_Name: PropPlacer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4157525999578052277
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7975753433643712945}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -97.592155, y: -89.39887, z: -2.7367775}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8032913310635573839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7975753433643712945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b2fc5a2caceac43a2ba62068dff033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  propsToPlace:
+  - {fileID: 11400000, guid: ce01cae813423724fa28626679275113, type: 2}
+  - {fileID: 11400000, guid: 82afe187f2147834083c0bc784aa9e79, type: 2}
+  - {fileID: 11400000, guid: 87542a6e98981c34592ed6bc079d15fa, type: 2}
+  - {fileID: 11400000, guid: 960a010b8f9d36942a28a62015c1b92b, type: 2}
+  - {fileID: 11400000, guid: 45374389a74e4ca44a65c587d624528d, type: 2}
+  propContainer: {fileID: 0}
+  cornerPropPlacementChance: 0.886
+  propPrefab: {fileID: 0}
+  OnFinishedPropPlacement:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: AgentPlacer, Assembly-CSharp
+        m_MethodName: PlaceAgents
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1

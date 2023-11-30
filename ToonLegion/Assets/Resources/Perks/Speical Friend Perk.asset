@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd4f2f266d05c604cb8d0724f78502d0, type: 3}
+  m_Name: Speical Friend Perk
+  m_EditorClassIdentifier: 
+  name: Sentinel Orb
+  description: A protective orb that fires in all directions
+  icon: {fileID: 21300000, guid: 99b3d645cf192d64888318d56699fdf8, type: 3}
+  rarity: 0
+  perkType: 1
+  isRepeatable: 0

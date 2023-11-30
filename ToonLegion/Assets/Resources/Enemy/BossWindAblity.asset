@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a7a311189f4fee4f85e4e7714ca8e29, type: 3}
+  m_Name: BossWindAblity
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 368116716781932015, guid: b20b6c5f35ef84547ac35f1bc0d44096, type: 3}
+  damage: 1
+  speed: 20
+  coolDownDuration: 1
+  pierce: 1

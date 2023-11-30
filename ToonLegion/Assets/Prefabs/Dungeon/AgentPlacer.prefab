@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5749626909681889927
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5266353046664323016}
+  - component: {fileID: 672032015650982825}
+  m_Layer: 0
+  m_Name: AgentPlacer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5266353046664323016
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5749626909681889927}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -46.4106, y: -72.77804, z: -2.3739357}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &672032015650982825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5749626909681889927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3689c70dc9efaa4e805515816cbf124, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 6567721133711578513, guid: f8af954e6c9e88f42b0af6508e400f7d, type: 3}
+  - {fileID: 4178776428768147755, guid: 8f44e6a4ba745c64dbe721f4fa793dcd, type: 3}
+  - {fileID: 4507293258642955291, guid: 82becce7f10a707419a9850d1ab559bb, type: 3}
+  enemyWeights: 010000000400000019000000
+  playerPrefab: {fileID: 8527296779532311784, guid: 31cf05c62e575ea4798634ce344a4592, type: 3}
+  playerRoomIndex: 0
+  minEnemiesPerRoom: 3
+  maxEnemiesPerRoom: 6
+  vCamera: {fileID: 0}
+  agentContainer: {fileID: 0}
+  playerContainer: {fileID: 0}

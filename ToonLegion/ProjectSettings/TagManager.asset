@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Socrerer
+  - Skeleton Skull
+  - Enemy
+  - Green
+  - Red
+  - Sliver
+  - Health
+  - Speed
+  - Might
+  - EyeSpawner
+  - BringerOfDeath
+  - PillarDestroy
+  - Ally
+  - Warlock
+  - SmallEye
+  - FlyingMonster
+  - HellHound
+  - Cross
+  - Hearts
+  - Walls
+  - Background
+  - NightBorne
+  - Guardian
+  - Lighting
+  - OldGolem
+  - BlueMage
+  - Purple
+  - miniSlime
+  - Crystal
+  - KingSlime
+  - Counter
+  - Grim
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - miniSlime
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
